@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O            &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp C_PLAY_PAUSE            &kp LEFT_BRACKET  &kp H        &kp J  &lt 5 K    &kp L            &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB                     &kp MINUS         &kp N        &kp M  &kp COMMA  &kp EXCLAMATION  &mt RIGHT_SHIFT QUESTION
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 2 SPACE  &lt_to_layer_0 3 TILDE      &kp BACKSPACE     &lt 3 ENTER                                     &lt 6 DEL
+&kp Q             &kp W         &kp E         &kp R             &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O      &kp P
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp C_PLAY_PAUSE            &kp LEFT_BRACKET  &kp H        &kp J  &lt 5 K    &kp L      &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB                     &kp MINUS         &kp N        &kp M  &kp COMMA  &kp MINUS  &mt RIGHT_SHIFT PERIOD
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 2 SPACE  &lt_to_layer_0 3 TILDE      &kp BACKSPACE     &lt 3 ENTER                               &lt 6 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LG(LEFT)) LC(LG(RIGHT))>;
@@ -103,10 +103,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_PARENTHESIS
-&kp LEFT_CONTROL            &kp LEFT_SHIFT   &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                      &kp PIPE
+&kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                           &kp LS(INT_YEN)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCLAMATION
+&kp LC(A)  &kp LC(S)        &kp LC(D)        &kp ASTRK        &kp LEFT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp COLON         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp QUESTION
+&kp LC(Z)  &kp LC(X)        &kp LC(C)        &kp LC(V)        &kp PERIOD            &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans     &trans           &trans           &trans           &trans                &trans                       &trans          &trans                                                      &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp LG(LC(LEFT)) LC(LG(RIGHT))>;
