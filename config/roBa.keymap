@@ -93,13 +93,22 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                                      &kp Y        &kp U  &lt 4 I    &kp O      &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G        &kp C_PLAY_PAUSE            &kp LG(TAB)       &kp H        &kp J  &lt 4 K    &kp L      &kp ENTER
+&kp Q             &kp W         &kp E         &kp R             &kp T                                                      &kp Y        &kp U  &lt 5 I    &kp O      &kp P
+&kp A             &kp S         &kp D         &kp F             &kp G        &kp C_PLAY_PAUSE            &kp LG(TAB)       &kp H        &kp J  &lt 5 K    &kp L      &kp ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp TAB                     &kp LEFT_BRACKET  &kp N        &kp M  &kp COMMA  &kp MINUS  &mt RIGHT_SHIFT PERIOD
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 1 SPACE  &lt_to_layer_0 2 TILDE      &kp BACKSPACE     &lt 2 ENTER                               &lt 5 DEL
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 2 SPACE  &lt_to_layer_0 3 TILDE      &kp BACKSPACE     &lt 3 ENTER                               &lt 6 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(LG(LEFT)) LC(LG(RIGHT))>;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
         };
 
         NUM {
@@ -128,7 +137,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans    &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB4  &mkp MB1  &trans  &mkp MB2  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans    &opendesktop
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
 
@@ -146,7 +155,7 @@
             sensor-bindings = <&inc_dec_kp LC(LG(LEFT_ARROW)) LC(LG(RIGHT))>;
         };
 
-        layer_6 {
+        bluetooth {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &bt BT_CLR          &trans       &trans        &trans        &trans        &trans        &trans
