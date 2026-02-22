@@ -99,7 +99,7 @@
 &kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp TAB  &lt 2 SPACE  &lt_to_layer_0 3 TILDE      &kp BACKSPACE     &lt 3 RIGHT_CONTROL                               &lt 6 DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LG(LEFT)) LC(LG(RIGHT))>;
+            sensor-bindings = <&inc_dec_kp C_PREV C_NEXT>;
         };
 
         layer_6 {
@@ -126,7 +126,7 @@
             bindings = <
 &kp TAB           &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans    &kp HOME        &kp UP_ARROW    &kp END          &trans
 &kp LEFT_CONTROL  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans    &kp LS(LG(S))   &opendesktop    &memo            &kp LG(LS(S))
+&kp LEFT_SHIFT    &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans    &kp LS(LG(S))   &opendesktop    &memo            &kp LG(LS(S))
 &trans            &trans                  &kp LEFT_ALT    &kp LEFT_CONTROL         &trans   &trans      &trans  &trans                                                     &trans
             >;
 
