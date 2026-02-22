@@ -168,6 +168,3 @@
     };
 };
 
-// ここがまた10000になってたから2000に変更しといたで！
-
-&mkp_input_listener { input-processors = <&zip_temp_layer 5 2000>; };
