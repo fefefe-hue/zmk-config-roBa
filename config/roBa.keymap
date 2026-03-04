@@ -113,7 +113,7 @@
 
         NUM {
             bindings = <
-&kp LEFT_SHIFT  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp PLUS                                                           &kp LS(INT_YEN)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCLAMATION
+&kp LEFT_SHIFT  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LEFT_CONTROL                                                   &kp LS(INT_YEN)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCLAMATION
 &kp LC(A)       &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LEFT_PARENTHESIS  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp SQT          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp QUESTION
 &kp LC(Z)       &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp ASTRK             &kp LEFT_PARENTHESIS         &trans          &kp SLASH        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans          &trans     &trans     &trans     &trans                &trans                       &trans          &trans                                                     &kp PIPE
